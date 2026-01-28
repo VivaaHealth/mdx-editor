@@ -3,7 +3,7 @@
   "author": "Petyo Ivanov",
   "homepage": "https://mdxeditor.dev/",
   "bugs": {
-    "url": "https://github.com/mdx-editor/editor/issues",
+    "url": "https://github.com/VivaaHealth/mdx-editor/issues",
     "email": "petyo@virtuoso.dev"
   },
   "private": false,
@@ -171,7 +171,7 @@
   "packageManager": "npm@9.5.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mdx-editor/editor.git"
+    "url": "https://github.com/VivaaHealth/mdx-editor.git"
   },
   "release": {
     "branches": [
