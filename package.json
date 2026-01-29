@@ -171,7 +171,7 @@
   "packageManager": "npm@9.5.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/VivaaHealth/mdx-editor.git"
+    "url": "git+https://github.com/VivaaHealth/mdx-editor.git"
   },
   "release": {
     "branches": [
