@@ -33,6 +33,27 @@ To that end, this section outlines the deliberate changes
 2. Update README: <https://github.com/VivaaHealth/mdx-editor/pull/2>
 3. Adjust URLs in package.json: <https://github.com/VivaaHealth/mdx-editor/pull/3>
 4. Align to `@notable/mdx-editor` in package.json: <https://github.com/VivaaHealth/mdx-editor/pull/4>
+5. Add release notes and fix package.lock: <https://github.com/VivaaHealth/mdx-editor/pull/5>
+
+### Notable Deployment Notes
+
+<https://notable-health.atlassian.net/wiki/spaces/notabledevops/pages/3922231305/notable+mdx-editor+-+Private+NPM+Package#Steps-to-Publish>
+
+````bash
+# Update version or manually edit package.json version field npm version prerelease --preid=notable
+
+# Build the package
+npm install --legacy-peer-deps
+npm run build
+
+# Authenticate with Artifact Registry
+npx google-artifactregistry-auth
+
+# Publish
+npm publish
+
+# Push version bump commit and tag
+git push origin notable-release --tags
 
 ## Package Notes
 
@@ -51,7 +72,7 @@ import '@mdxeditor/editor/style.css'
 export default function App() {
   return <MDXEditor markdown={'# Hello World'} plugins={[headingsPlugin()]} />
 }
-```
+````
 
 ## Get Started
 

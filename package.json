@@ -11,7 +11,7 @@
     "*.css"
   ],
   "type": "module",
-  "version": "0.0.0-development",
+  "version": "3.52.3",
   "description": "React component for rich text markdown editing",
   "scripts": {
     "build": "vite build",
@@ -171,7 +171,7 @@
   "packageManager": "npm@9.5.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/VivaaHealth/mdx-editor.git"
+    "url": "git+https://github.com/VivaaHealth/mdx-editor.git"
   },
   "release": {
     "branches": [
