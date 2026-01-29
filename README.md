@@ -32,6 +32,7 @@ To that end, this section outlines the deliberate changes
 1. Remove sandpack and CodeSandbox PR: <https://github.com/VivaaHealth/mdx-editor/pull/1>
 2. Update README: <https://github.com/VivaaHealth/mdx-editor/pull/2>
 3. Adjust URLs in package.json: <https://github.com/VivaaHealth/mdx-editor/pull/3>
+4. Align to `@notable/mdx-editor` in package.json: <https://github.com/VivaaHealth/mdx-editor/pull/4>
 
 ## Package Notes
 
