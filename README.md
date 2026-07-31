@@ -1,4 +1,7 @@
-# MDXEditor
+# MDXEditor (This package is now obsolete)
+
+## Obsolescence notes
+https://github.com/mdx-editor/editor published v4, and has addressed the proprietary Sandpack problem
 
 ## Customization Notes
 
@@ -10,12 +13,12 @@ That project has an optional dependency which introduces a licensing issue.
 
 Specifically, an optional package from CodeSandbox:
 
-> MDX editor integrates sandpack within the main package and sandpack dependes on nodebox:
+> MDX editor integrates sandpack within the main package and sandpack depends on nodebox:
 > <https://github.com/Sandpack/nodebox-runtime?tab=License-1-ov-file>
 >
 > Nodebox has a proprietary custom license which forbids commercial use.
 >
-> The problem is nodebox allways gets installed when installing mdx editor. Tree shaking will probably kick it out when not used, but thats not 100% sure.
+> The problem is nodebox always gets installed when installing mdx editor. Tree shaking will probably kick it out when not used, but that's not 100% sure.
 >
 > This can theoretically lead to possible legal issues for everyone using it commercially.
 
